@@ -1,144 +1,87 @@
-const logotext = "JOHN";
+import LandingPage from './assets/images/landing-page.png';
+import MovieApp from './assets/images/Movie-app.png';
+import GalleryApp from './assets/images/Image-gallery.png'
+
+const logotext = "HASSANAT";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Hassanat Bello",
+    description: "I’m Hassanat Bello, Frontend Developer, based in Nigeria.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Hassanat Bello",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I build amazing websites",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Hassanat Bello is a proficient and detail-oriented Frontend Developer with 1 year of experience, creating innovative and user-friendly websites and web applications. With a deep understanding of modern web development technologies and frameworks, Hassanat is dedicated to developing visually appealing and intuitive interfaces that meet user needs and exceed client expectations.",
+    your_img_url: "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I am a frontend developer with an immense passion and talent in the realm of web development. At the remarkable age of 17 i have showcased an exceptional grasp of modern web technologies.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 40,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "HTML",
+        value: 95,
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 40,
     },
     {
         name: "React",
-        value: 60,
+        value: 50,
     },
     {
-        name: "Jquery",
+        name: "CSS",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Responsive web design",
+        description: "Creating aesthetically pleasing and functional designs that work on a variety of devices and screen sizes. This ensures a seamless user experience whether the user is accessing the site on a mobile device, tablet, or desktop.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: " User Interface Development",
+        description: "Building interactive and intuitive user interfaces using HTML, CSS, JavaScript, and other frontend technologies, allowing users to interact with web applications efficiently and effectively.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Single Page Application Development",
+        description: "Developing applications that load a single HTML page and dynamically update the content as the user interacts with the app. This service is essential for creating highly interactive and user-friendly web applications.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: GalleryApp,
+        description: "It is a smart drag and drop image gallery.",
+        link: "smart-gallery-zeta.vercel.app",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: LandingPage,
+        description: "Single page application",
+        link: "stage-one-topaz.vercel.app",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: MovieApp,
+        description: "A movie platform.",
+        link: "moviebox-six.vercel.app",
     },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "hassanatbello93@gmail.com",
+    YOUR_FONE: "(234)903-4457-915",
+    description: "This is my email and contact info. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,16 +90,14 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Haseenarh",
+    linkedin: "https://www.linkedin.com/in/hassanat-bello-199346257/",
+    twitter: "https://twitter.com/HassanatBello4",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
     services,
     introdata,
